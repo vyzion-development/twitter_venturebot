@@ -187,21 +187,21 @@ if __name__ == '__main__':
 
  # list of banks, investment funds, lps,  for impact
 
-    os.system('GetOldTweets3 --username "rodneysampson" --since 2020-01-01 --until 2020-7-21 --output Zenith.csv')
-    os.system('GetOldTweets3 --username "jpmorgan" --since 2020-01-01 --until 2020-7-21 --output Wema.csv')
-    os.system('GetOldTweets3 --username "vital_capital" --since 2020-01-01 --until 2020-7-21 --output Access.csv')
+    os.system('GetOldTweets3 --querysearch "#BlackFounders" --since 2020-01-01 --until 2020-7-21 --output blackfounders.csv')
+    os.system('GetOldTweets3 --querysearch "jpmorgan" --since 2020-01-01 --until 2020-7-21 --output Wema.csv')
+    os.system('GetOldTweets3 --querysearch "vital_capital" --since 2020-01-01 --until 2020-7-21 --output Access.csv')
     os.system('GetOldTweets3 --username "GoldmanSachs" --since 2020-01-01 --until 2020-7-21 --output GTB.csv')
     os.system('GetOldTweets3 --username "LoopCapital" --since 2020-01-01 --until 2020-7-21 --output FirstBank.csv')
-    os.system('GetOldTweets3 --username "" --since 2020-01-01 --until 2020-7-21 --output Polaris.csv')
-    os.system('GetOldTweets3 --username "chase" --since 2020-01-01 --until 2020-7-21 --output Kudabank.csv')
-    os.system('GetOldTweets3 --username "WellsFargo" --since 2020-01-01 --until 2020-7-21 --output FCMB.csv')
+    os.system('GetOldTweets3 --querysearch "#Score3" --since 2020-01-01 --until 2020-7-21 --output score3.csv')
+    os.system('GetOldTweets3 --username "chase" --since 2020-01-01 --until 2020-7-21 --output chase.csv')
+    os.system('GetOldTweets3 --querysearch "#Blackventures" --since 2020-01-01 --until 2020-7-21 --output blackventures.csv')
     os.system('GetOldTweets3 --username "ecobank_nigeria" --since 2020-01-01 --until 2020-7-21 --output Ecobank.csv')
-    os.system('GetOldTweets3 --username "TDBank_us" --since 2020-01-01 --until 2020-7-21 --output StanbicIBTC.csv')
-    os.system('GetOldTweets3 --username "ConsumersCU" --since 2020-01-01 --until 2020-7-21 --output UBA.csv')
-    os.system('GetOldTweets3 --username "IA_fund" --since 2020-01-01 --until 2020-7-21 --output Sterling.csv')
+    os.system('GetOldTweets3 --username "#Blacktech" --since 2020-01-01 --until 2020-7-21 --output blacktech.csv')
+    os.system('GetOldTweets3 --username "HarlemCapital" --since 2020-01-01 --until 2020-7-21 --output HarlemCapital.csv')
+    os.system('GetOldTweets3 --username "IA_fund" --since 2020-01-01 --until 2020-7-21 --output IAfund.csv')
     os.system('GetOldTweets3 --username "fidelitybankplc" --since 2020-01-01 --until 2020-7-21 --output Fidelity.csv')
-    os.system('GetOldTweets3 --username "BrownCptlGroup" --since 2020-01-01 --until 2020-7-21 --output Unionbank.csv')
-    os.system('GetOldTweets3 --username "645 Ventures" --since 2020-01-01 --until 2020-7-21 --output Keystone.csv')
-    os.system('GetOldTweets3 --username "backstage_cap" --since 2020-01-01 --until 2020-7-21 --output UnityBank.csv')
+    os.system('GetOldTweets3 --username "BrownCptlGroup" --since 2020-01-01 --until 2020-7-21 --output BrownCap.csv')
+    os.system('GetOldTweets3 --username "645 Ventures" --since 2020-01-01 --until 2020-7-21 --output 645ventures.csv')
+    os.system('GetOldTweets3 --username "backstage_cap" --since 2020-01-01 --until 2020-7-21 --output backstage_cap.csv')
 
      
